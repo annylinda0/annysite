@@ -1,56 +1,102 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
+    <title>Medicina Store</title>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Equipe Alura Start</title>
-    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link href=img/medicina.jpeg rel="stylesheet">
 </head>
+
 <body>
-    <header class="cabecalho">
-        <img class="cabecalho-imagem" src="alurastart logo.png" alt="logo da alura start">
-        <ul class="cabecalho-lista">
-            <li class="cabecalho-lista-item">Escola</li>
-            <li class="cabecalho-lista-item">Estudante</li>
+    <section class="principal container">
+        <div class="container__caixa">
+            <h1 class="container__titulo">Tudo que você precisa está aqui!
+            </h1>
+            <img src= img/medicina.jpeg>
+        </div>
+    </section>
+
+    <section class="container secundario">
+        <img src="images3.jpeg" alt="Imagem Medicina" class="secundario__imagem">
+        <div class="container__descricao">
+            <h2 class="descricao__titulo">Itens para todos os gostos</h2>
+            <p class="descricao__texto">Aproveite as promoções muitas vezes são ilimitas</p>
+        </div>
+        
+    </section>
+
+    <section class="container secundario">
+        <div class="container__descricao">
+            <p class="descricao__texto">
+                Só nossa loja oferece produtos de edição limitada com ofertas imperdivéis
+            </p>
+            <a href="www.alura.com.br" class="container__botao secundario__botao" container>comre com a gente</a>
+        </div>
+        <img src="img/Jaleco.webp" alt="Tela do alura+ e alura língua" class="secundario__imagem">
+    </section>
+
+    <section class="container secundario">
+        <img src="img/cara de medico.jpg" alt="Notebook com a página do curso HTML5 e CSS3 da Alura aberta"
+            class="secundario__imagem">
+        <div class="container__descricao">
+            <h2 class="descricao__titulo">aproveite cada promoção</h2>
+            <p class="descricao__texto">muias categrias!des de estetoscópio até a nova linha da crocs!</p>
+        </div>
+    </section>
+    
+    <section class="dispositivos">
+        <h2 class="dispositivos__titulo">Disponível somente na loja virtual</h2>
+        <ul class="dispositivos__lista">
+            <li>
+                <img src="img/20220825120035_6437993563_D.png" alt="Ícone de televisão" class="secundario__imagem">
+                <h3 class="lista__item">novo estetoscópio</h3>
+            </li>
+            <li>
+                <img src="img/207988_6358_100.webp" alt="Ícone de computador" class="secundario__imagem">
+                <h3 class="lista__item">Lançamento Crocs</h3>
+            </li>
+            <li>
+                <img src="img/scrub-feminino-pretty-woman---pink-_83__1.jpeg" alt="Ícone de celular" class="secundario__imagem">
+                <h3 class="lista__item">Novo Scrub da dra. Charle</h3>
+            </li>
         </ul>
-    </header>
-    <section class="escola">
-        <div class="escola-div-conteudo">
-            <h2 class="escola-titulo">Sobre CEPASC</h2>
-            <p class="escola-texto-um">informações sobre o CEPACS</p>
-            <p class="escola-texto-dois">A turma mais estudiosa e famosa é a Segunda Série A. Nós somos super unidos e a turma favorita por todos os professores e professoras que nos ajudam!</p>
-        </div>
-        <img class="escola-imagem" src="cepacs.jpeg" alt="cepacs.jpeg">
     </section>
-    <section class="estudante">
-        <h2 class="estudante-titulo">Quem são nossos estudantes?</h2>
-        <div class="estudante-todos">
-        <span></span>
-        <div class="estudante-div">
-            <img class="estudante-imagem" src="joãozinho.jpeg" alt="foto do joãozinho">
-            <h3 class="estudante-nome">Marcelo</h3>
-            <a href="https://github.com/marcelopaludetto"><img class="estudante-icone" src="github.png" alt="icone github"></a>
-            <a href="https://linkedin.com/marcelopaludetto"><img class="estudante-icone" src="linkedin.png" alt="icone linkedin"></a>
-            <a href="https://instagram.com/marcelopaludetto"><img class="estudante-icone" src="instagram.png" alt="icone instagram"></a>
-        </div>
-        <div class="estudante-div">
-            <img class="estudante-imagem" src="download (1).jpeg" alt="foto do lula molusco">
-            <h3 class="estudante-nome">lula molusco</h3>
-            <a href="https://github.com/marcelopaludetto"><img class="estudante-icone" src="github.png" alt="icone github"></a>
-            <a href="https://linkedin.com/marcelopaludetto"><img class="estudante-icone" src="linkedin.png" alt="icone linkedin"></a>
-            <a href="https://instagram.com/marcelopaludetto"><img class="estudante-icone" src="instagram.png" alt="icone instagram"></a>
-        </div>
-        <div class="estudante-div">
-        <img class="estudante-imagem" src="catarina.avif" alt="foto do marcelo">
-        <h3 class="estudante-nome">Catarina</h3>
-        <a href="https://github.com/marcelopaludetto"><img class="estudante-icone" src="github.png" alt="icone github"></a>
-        <a href="https://linkedin.com/marcelopaludetto"><img class="estudante-icone" src="linkedin.png" alt="icone linkedin"></a>
-        <a href="https://instagram.com/marcelopaludetto"><img class="estudante-icone" src="instagram.png" alt="icone instagram"></a>
-    </div>
-    </section>
+
+    <footer class="rodape">
+        <img src="" alt="" class="rodape__logo">
+        <ul class="rodape__lista">
+            <li class="lista__link">
+                <a href="#">Idioma</a>
+            </li>
+            <li class="lista__link">
+                <a href="#">Dispositivos compatíveis</a>
+            </li>
+            <li class="lista__link">
+                <a href="#">Contrato de pagamento</a>
+            </li>
+            <li class="lista__link">
+                <a href="#">Politica de privacidade</a>
+            </li>
+            <li class="lista__link">
+                <a href="#">Proteção de dados no Brasil</a>
+            </li>
+            <li class="lista__link">
+                <a href="#">Anuncios personalizados</a>
+            </li>
+            <li class="lista__link">
+                <a href="#">Ajuda</a>
+            </li>
+        </ul>
+        <p class="rodape__texto">® 2021 ,Medicina Store e sies.com. Todos os direitos reservados. Serviço de
+            venda. Conteúdo sujeito a disponibilidade.</p>
+        <p class="rodape__texto">Medicina Store é um serviço pago, baseado em assinatura e sujeito a termos e condições. O
+            serviço oferecido por Medicina Store é comercializado por Aovs Sistemas de Informática S.A., Rua Vergueiro, 3185 - Liberdade, São
+            Paulo - SP, 04101-300, Brasil e CNPJ 05.555.382/0001-33</p>
+    </footer>
 </body>
+
 </html>
